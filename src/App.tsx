@@ -9,18 +9,21 @@ class App extends React.Component {
     return (
       <BrowserRouter>
           {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
-          <div className="demo-big-content">
+          <div className="outer">
               <Layout>
-                  <Header className="header-color" title="Title" scroll={true}>
+                <div className="header-div">
+                  <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My Portfolio</Link>} scroll={true}>
                       <Navigation>
                         <Link to="/resume">Resume</Link>
                         <Link to="/aboutme">About Me</Link>
                         <Link to="/projects">Projects</Link>
                         <Link to="/contact">Contact</Link>
                       </Navigation>
-                  </Header>
-                  <Drawer title="Title">
+                    </Header>
+                </div>
+                  <Drawer title="Contents">
                       <Navigation>
+                        <Link to="/landingpage">Home </Link>
                         <Link to="/resume">Resume</Link>
                         <Link to="/aboutme">About Me</Link>
                         <Link to="/projects">Projects</Link>

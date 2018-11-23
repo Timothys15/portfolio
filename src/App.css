@@ -1,0 +1,192 @@
+.header-color {
+  background: #DC2424;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A569D, #DC2424);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.header-div {
+  outline: none;
+  padding-bottom: 0%;
+  border-bottom: none;
+  border: none;
+}
+
+.landing-grid { 
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #DC2424;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A569D, #DC2424);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+/* About me css */
+
+.about-left {
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+}
+
+.about-me-right-side {
+  padding: 0;
+  border: none;
+  height: 100%;
+  overflow: hidden;
+  background-color: #4F33FF;
+  padding: 0;
+}
+
+.about-me-right-side h1{
+  text-align: center;
+  color: white;
+  justify-content: left;
+  font-family: 'EB Garamond', serif;
+}
+
+/* Reserved spot in page */
+.about-me-right-side h2 {
+  color: plum;
+  text-align: center;
+  justify-content: first baseline;
+}
+
+.about-me-right-side h3 {
+  color: white;
+  text-align: center;
+  justify-content: first baseline;
+}
+
+.about-me-right-side p{
+  text-align: left;
+  color: white;
+  justify-content: left;
+  font-family: 'EB Garamond', serif;
+  padding: 50px;
+  font-size: 25px;
+}
+
+/* Resume page css */
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+.resume-right-col p{
+  color: white;
+}
+
+/* projects page css */
+
+.projects-grid {
+  display: flex;
+}
+
+.project-buttons i{
+  display: flex;
+  font-size: 3em;
+  padding-bottom: 6px;
+}
+ 
+/* contacts page css  */
+
+.contact-body {
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+  background: white;
+  color: black;
+  margin-bottom: 20px; 
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+/* landing page/home css */
+
+.avatar-img {
+  height: 50%;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color:  black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: 'EB Garamond', serif;
+}
+
+.banner-text h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: 'EB Garamond', serif;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  text-align: center
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 4px;
+}

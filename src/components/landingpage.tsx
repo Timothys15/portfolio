@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Cell, Grid } from 'react-mdl';
-import timpic from '../img/timpic.png';
+import timpic from '../img/timpic.gif';
 
 
 class Landing extends React.Component {
@@ -16,9 +16,11 @@ class Landing extends React.Component {
                         />
 
                         <div className="banner-text">
-                            <h1>Third Year University Student</h1>
-
+                            <h1>Timothy Serrano</h1>
                             <hr/>
+                            <h2>Bachelor of Computer and Information Sciences (BCIS)</h2>
+                            <h2>Auckland University of Technology</h2>
+                            
                             <p>HTML/CSS | JavaScript | React | C# </p>
 
                             { /* Social Media Integration */}

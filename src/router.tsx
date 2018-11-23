@@ -14,6 +14,7 @@ export const Router: React.StatelessComponent<{}> = () => {
             <div>
                 <main>
                     <Route exact={true} path="/" component={LandingPage} />
+                    <Route path="/landingpage" component={LandingPage} />
                     <Route path="/aboutme" component={AboutMe} />
                     <Route path="/contact" component={Contacts} />
                     <Route path="/projects" component={Projects} />
