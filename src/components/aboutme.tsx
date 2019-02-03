@@ -5,7 +5,7 @@ import StudyArea from '../img/studyarea.jpg';
 class About extends React.Component {
     public render() {
         return(
-              <Grid>
+              <Grid style={{padding: '0%'}}>
                   <Cell col={6}>
                     <div className="bg">
                         <div id="bg-overlay"/>

@@ -11,6 +11,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-mdl": "^1.11.0",
+    "react-responsive-modal": "^3.5.1",
     "react-router-dom": "^4.3.1",
     "react-scripts-ts": "3.1.0",
     "typeface-roboto": "0.0.54"
@@ -22,6 +23,7 @@
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
+    "webpack-dev-server": ">=3.1.11",
     "@types/jest": "^23.3.9",
     "@types/node": "^10.12.9",
     "@types/react": "^16.7.6",

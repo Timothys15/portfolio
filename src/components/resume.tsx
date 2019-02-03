@@ -1,11 +1,20 @@
 import * as React from 'react';
 import { Cell, Grid } from 'react-mdl';
+// import JS from '../img/js.png';
 // import Skycity from '../img/skycity.jpg';
 import timpic from '../img/timpic.gif';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import Volunteer from './volunteer';
+
+const skillIcons = {
+    cSharp: "http://www.nerdystickers.com/thumbnail.asp?file=assets/images/product_images/csharp-001.png&maxx=300&maxy=0",
+    html: "https://banner2.kisspng.com/20180503/cee/kisspng-web-development-html-css3-the-ohana-code-logo-2cpaper-projection-shaded_1660937-html-dropdown-js-5aebd5631cd291.7591600015254050271181.jpg",    
+    javascript: "https://banner2.kisspng.com/20180821/uxs/kisspng-product-design-logo-brand-trademark-reporting-tool-for-javascript-and-html5-component-5b7c7899e0f971.9841989015348839939215.jpg",
+    react: "https://banner2.kisspng.com/20180518/ptw/kisspng-react-logo-javascript-front-and-back-ends-user-int-5afef575942028.3034008315266584216067.jpg",
+    unity: "https://banner2.kisspng.com/20180523/fuf/kisspng-unity-game-engine-logo-video-game-corelle-brands-5b059883ec9bc6.4197736615270933799692.jpg"
+}
 
 
 class Resume extends React.Component {
@@ -30,13 +39,15 @@ class Resume extends React.Component {
                         <h2 style={{paddingTop: '2em'}}>Timothy Serrano</h2>
                         <h4 style={{color: 'gray'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <p>The first error is for : MultipartRequestHelper. 
-                            Let create a new folder (like we did for Model folder) called Helpers. 
-                            Add new class MultipartRequestHelper in this folder and paste the following code.
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <h5>Date of Birth</h5>
+                            <p>October 2nd 1994 (02/10/1994)</p>
                         <h5>Address</h5>
-                            <p>6/324 West Coast Road Glen Eden</p>
+                            <p>6/324 West Coast Road, Glen Eden, Auckland.</p>
                         <h5>Phone</h5>
                             <p>(021) 1613579</p>
                         <h5>E-mail (Personal/University)</h5>
@@ -74,7 +85,9 @@ class Resume extends React.Component {
                         startYear={2017}
                         endYear={2017}
                         volunteerPlace={"SPCA Auckland - Legacy Giver Event"}
-                        volunteerDescription={"Provided guests with information and directions about the venue. Served food throughout the duration of the venue and helped alongside caterers before and after venue."}
+                        volunteerDescription1={"Provided guests with information and directions regarding venue"}
+                        volunteerDescription2={"Catered to guests throughout the duration of the venue"}
+                        volunteerDescription3={"Engage with guests to present a comfortable environment and promote SPCA future events"}
                     />
 
                     <hr style={{borderTop: '3px solid #e22947'}}/>
@@ -108,27 +121,27 @@ class Resume extends React.Component {
                     <h2>Skills</h2>
                         <Cell className="skills-progress-bars" col={12}>
                             <Skills
-                                skill={"JavaScript"} 
+                                skill={skillIcons.javascript} 
                                 progress={70}
                             />
 
                             <Skills
-                                skill={"HTML/CSS"} 
+                                skill={skillIcons.html} 
                                 progress={50}
                             />
 
                             <Skills 
-                                skill={"C#"}
+                                skill={skillIcons.cSharp}
                                 progress={60}
                             /> 
 
                             <Skills 
-                                skill={"React"}
+                                skill={skillIcons.react}
                                 progress={20}
                             /> 
 
                             <Skills 
-                                skill={"Unity"}
+                                skill={skillIcons.unity}
                                 progress={40}
                             />
                         </Cell>

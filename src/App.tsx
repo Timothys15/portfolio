@@ -4,7 +4,8 @@ import { BrowserRouter, Link } from 'react-router-dom';
 import './App.css';
 import Router from './router';
 
-class App extends React.Component {
+
+class App extends React.Component{
   public render() {
     return (
       <BrowserRouter>
@@ -35,8 +36,8 @@ class App extends React.Component {
                       <Router />
                   </Content>
              </Layout>
-           </div>
-      </BrowserRouter> 
+          </div>
+      </BrowserRouter>         
     );
   }
 }

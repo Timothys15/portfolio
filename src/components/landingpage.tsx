@@ -6,9 +6,9 @@ import timpic from '../img/timpic.gif';
 class Landing extends React.Component {
     public render() {
         return(
-            <div style={{width: '100%', margin: 'auto'}}>
+            <div className ="DEBUG ME" style={{width: '100%', height: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
-                    <Cell col={12}>
+                    <Cell col={12} style={{height: '100%'}}>
                         <img 
                             src={timpic}
                             alt="avatar"
